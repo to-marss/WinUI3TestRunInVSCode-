@@ -11,6 +11,9 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="48" />
             <RowDefinition Height="*" />
+            <RowDefinition Height="48" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="48" />
         </Grid.RowDefinitions>
 
         <TextBlock
@@ -19,8 +22,27 @@
             Style="{StaticResource PageTitleStyle}" />
 
         <Grid Grid.Row="1">
-            
+            <TextBlock
+                x:Uid="Main_Title"
+                Style="{StaticResource PageTitleStyle}" />
         </Grid>
-        
+
+        <Grid Grid.Row="2">
+            <TextBlock
+                Text="Third row"
+                Style="{StaticResource PageTitleStyle}" />
+        </Grid>
+
+        <Grid Grid.Row="3">
+            <TextBlock
+                Text="Fourth row"
+                Style="{StaticResource PageTitleStyle}" />
+        </Grid>
+
+        <Grid Grid.Row="4">
+            <TextBlock Text="Fifth row"
+                       Style="{StaticResource PageTitleStyle}" />
+        </Grid>
+
     </Grid>
 </Page>

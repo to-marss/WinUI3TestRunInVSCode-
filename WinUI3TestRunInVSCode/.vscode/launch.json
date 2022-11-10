@@ -10,7 +10,7 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/WinUI3TestRunInVSCode/bin/Debug/net6.0-windows10.0.19041/WinUI3TestRunInVSCode.dll",
+            "program": "${workspaceFolder}/WinUI3TestRunInVSCode/bin/x64/Debug/net6.0-windows10.0.19041.0/win10-x64/WinUI3TestRunInVSCode.exe",
             "args": [],
             "cwd": "${workspaceFolder}/WinUI3TestRunInVSCode",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
